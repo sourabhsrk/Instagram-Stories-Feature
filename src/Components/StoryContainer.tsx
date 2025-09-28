@@ -1,3 +1,4 @@
+import React from "react";
 
 interface Story {
   urls: {
@@ -20,4 +21,4 @@ const StoryContainer = ({story, onClick}: StoryContainerProps) => {
   )
 }
 
-export default StoryContainer;
+export default React.memo(StoryContainer);

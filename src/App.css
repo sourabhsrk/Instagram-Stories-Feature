@@ -110,3 +110,13 @@
   align-items: center;
   justify-content: center;
 }
+
+.progressBar {
+  height: 4px;
+  background-color: green;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: width 0.05s linear;
+  border-radius: 2px;
+}
